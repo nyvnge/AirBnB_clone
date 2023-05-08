@@ -21,3 +21,14 @@ This first step consists of:
 The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.</br>
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.</br>
+
+# How to start
+# Below are the steps on how to manipulate commands
+
+# Commands 
+start | '''./console.py'''
+help  | '''(hbnb) help<topic>'''
+quit | '''(hbnb) quit'''
+create object | '''(hbnb) create <class>'''
+show object | '''(hbnb) show <class>'''
+
