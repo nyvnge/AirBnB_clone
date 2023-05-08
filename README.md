@@ -26,16 +26,16 @@ This command line interpreter serves as the frontend of the web app where users 
 # Below are the steps on how to manipulate commands
 
 # Commands 
-start | '''./console.py'''
-help  | '''(hbnb) help<topic>'''
-quit | '''(hbnb) quit'''
-create object | '''(hbnb) create <class>'''
-show object | '''(hbnb) show <class>'''
+start | ```./console.py```
+help  | ```(hbnb) help<topic>```
+quit | ```(hbnb) quit```
+create object | ```(hbnb) create <class>```
+show object | ```(hbnb) show <class>```
 
 # Examples
 
 ### interactive mode
-'''$ ./console.py
+```$ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -45,10 +45,10 @@ EOF  help  quit
 (hbnb) 
 (hbnb) 
 (hbnb) quit
-$'''
+$```
 
 ### non interactive mode
-'''$ echo "help" | ./console.py
+```$ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
@@ -66,5 +66,5 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
-$'''
+$```
 
