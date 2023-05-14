@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!usr/bin/python3
 import cmd
 from models.base_model import BaseModel
@@ -98,4 +99,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().endloop()
-
