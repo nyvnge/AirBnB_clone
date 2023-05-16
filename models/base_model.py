@@ -9,10 +9,18 @@ class BaseModel():
 
 	if len(kwargs) != 0:
 	   for key, value in kwargs.items():
+<<<<<<< HEAD
                 if key == "updated_at" or key == "created_at":
 		     self.__dict__[key] = datetime.fromisoformat(value)
                 else:
                      self.__dict__[key] = value
+=======
+		if key == "__class__": 
+		    continue;
+                elif key == "updated_at" or key == "created_at":
+		     self.__dict__[key] = datetime.fromisoformat(value);		    
+			self.__dict__[key] = value;
+>>>>>>> f609f39f45fbe817d7b8920cd9c48d993190efad
 	else:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
