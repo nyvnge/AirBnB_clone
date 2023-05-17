@@ -1,8 +1,26 @@
-#!usr/bin/python3
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""User Module
+
+It nherits from BaseModel class.
+User Module contains the user information.
+
+"""
+
+from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    """User Class
+
+    Attributes:
+        email (str): The User email
+        password (str): The User password
+        first_name (str): The first name of the User
+        last_name (str): The last name of the User
+
+    """
+    email = ''
+    password = ''
+    first_name = ''
+    last_name = ''

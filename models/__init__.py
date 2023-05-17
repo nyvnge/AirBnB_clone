@@ -1,5 +1,14 @@
 #!/usr/bin/python3
-from models.engine.file_storage import file_storage
+"""Initializing a variable `storage` to create a
+unique `FileStorage` instance for the HBNB application.
 
-storage = file_storage.FileStorage()
+Always the `__objects` class attribute of the
+`FileStorage` class is loaded with all objects on the
+`__file_path` class attribute of the `FileStorage` class.
+
+"""
+
+from models.engine.file_storage import FileStorage
+
+storage = FileStorage()
 storage.reload()
