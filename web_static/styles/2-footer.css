@@ -5,9 +5,7 @@ footer{
     background-color: #00FF00;
     height: 60px;
     width: 100%;
-}
-
-footer p{
-    text-align: center;
-    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
