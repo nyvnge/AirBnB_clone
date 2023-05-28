@@ -1,5 +1,5 @@
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     line-height: 30px;
     background-color: #00FF00;
